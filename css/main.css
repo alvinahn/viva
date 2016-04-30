@@ -1,5 +1,117 @@
 /* Enter CSS below */
 
 #content {
-	margin-top: 100px;
+	margin-top: 55px;
+}
+
+/***** Navbar *****/
+.navbar-default {
+  background-color: white;
+  border: none;
+}
+
+.navbar-default .navbar-brand {
+  color: black;
+  font-size: 25px;
+}
+
+.navbar-nav {
+  margin-top: 5px;
+}
+
+.navbar-header {
+  text-align: center;
+}
+
+.navbar-toggle {
+  margin-top: 11px;
+  margin-left: 15px;
+}
+
+.menu-position {
+  float: right;
+}
+
+@media(max-width:767px){
+  .navbar-default .navbar-brand {
+    float: none;
+    top: 5%;
+    font-size: 40px;
+  }
+
+  .navbar-header {
+    padding-top: 15px;
+  }
+
+  .navbar-toggle {
+    margin-top: -5px;
+    border: none;
+  }
+  
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+  }
+
+  .menu-position {
+    float: left;
+    width: 100%;
+  } 
+
+  .container-fluid>.navbar-collapse {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+/***** Main Page *****/
+.main-image {
+  height: 500px;
+  background: lightgrey;
+  margin-bottom: 50px;
+}
+
+.sub-image {
+  height: 300px;
+  background: lightgrey;
+}
+
+#article p {
+  color: rgb(46, 149, 252);
+  font-size: 15px;
+} 
+
+#article a {
+  font-size: 25px;
+  color: black;
+}
+
+@media (max-width:767px){
+  .main-image {
+    height: 300px;
+    margin-bottom: 50px;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  .sub-image {
+    height: 200px;
+    margin-bottom: 15px;
+  }
+
+  #article p {
+    font-size: 12px;
+  } 
+
+  #article a {
+    font-size: 17px;
+  }
+
+  .description {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+}
+
+.article {
+  margin-bottom: 50px;
 }
